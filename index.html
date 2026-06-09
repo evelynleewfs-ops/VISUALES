@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Visuales 3D para DJs y Fiestas | Eleva la Experiencia de tu Evento</title>
+    <meta name="description" content="Diseño de contenido de visuales 3D profesionales para DJs, discotecas y fiestas. Impacta a tu audiencia con animaciones y loops de alta calidad en Bucaramanga.">
+    <meta name="keywords" content="visuales 3d, visuales para djs, contenido visual fiestas, loops 3d, vjing, animaciones para discotecas, bucaramanga">
+    <meta name="author" content="Shirley Dayanna Camargo Martinez">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://tudominio.com/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Visuales 3D",
+      "description": "Servicio de creación de contenido visual 3D para DJs y eventos.",
+      "founder": {
+        "@type": "Person",
+        "name": "Shirley Dayanna Camargo Martinez"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cra. 35 # 46-51",
+        "addressLocality": "Bucaramanga",
+        "addressCountry": "CO"
+      },
+      "telephone": "+573012246756",
+      "email": "ulyssesetompsone4547@gmail.com",
+      "openingHours": "Mo-Su 08:00-17:00"
+    }
+    </script>
+
+    <style>
+        /* Variables y Reset */
+        :root {
+            --bg-dark: #0a0a0a;
+            --bg-panel: #141414;
+            --primary: #8B5CF6; /* Morado neón */
+            --accent: #10B981;  /* Verde neón para CTA */
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+        body { background-color: var(--bg-dark); color: var(--text-main); line-height: 1.6; scroll-behavior: smooth; }
+        a { text-decoration: none; color: inherit; }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+        /* HEADER */
+        header { background-color: rgba(10, 10, 10, 0.95); position: sticky; top: 0; z-index: 100; border-bottom: 1px solid #27272a; padding: 15px 0; }
+        .header-flex { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 900; color: var(--primary); letter-spacing: 1px; }
+        .logo span { color: var(--text-main); }
+        .nav-links { display: flex; gap: 20px; }
+        .nav-links a { font-weight: 500; font-size: 0.9rem; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--primary); }
+
+        /* BOTONES */
+        .btn { display: inline-block; padding: 15px 30px; font-weight: 700; border-radius: 4px; text-transform: uppercase; letter-spacing: 1px; cursor: pointer; transition: all 0.3s ease; border: none; text-align: center; }
+        .btn-cta { background-color: var(--accent); color: #000; box-shadow: 0 0 15px rgba(16, 185, 129, 0.4); }
+        .btn-cta:hover { background-color: #0ea5e9; box-shadow: 0 0 20px rgba(14, 165, 233, 0.6); transform: translateY(-2px); }
+
+        /* HERO */
+        .hero { padding: 120px 20px; text-align: center; background: radial-gradient(circle at center, #1f103b 0%, var(--bg-dark) 70%); }
+        .hero h1 { font-size: 3.5rem; font-weight: 900; margin-bottom: 20px; line-height: 1.2; text-transform: uppercase; }
+        .hero h1 span { color: var(--primary); }
+        .hero p { font-size: 1.2rem; color: var(--text-muted); max-width: 700px; margin: 0 auto 40px; }
+
+        /* SECCIONES COMUNES */
+        .section { padding: 80px 0; }
+        .section-title { text-align: center; font-size: 2.2rem; margin-bottom: 50px; font-weight: 900; text-transform: uppercase; }
+        .section-title span { color: var(--accent); }
+
+        /* BENEFICIOS & SERVICIOS (Grilla) */
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: var(--bg-panel); padding: 30px; border-radius: 8px; border: 1px solid #27272a; transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); border-color: var(--primary); }
+        .card h3 { font-size: 1.2rem; margin-bottom: 15px; color: var(--text-main); }
+        .card p { color: var(--text-muted); font-size: 0.95rem; }
+
+        /* PRUEBA SOCIAL / HECHOS */
+        .facts { background-color: var(--bg-panel); border-top: 1px solid #27272a; border-bottom: 1px solid #27272a; }
+        .fact-stats { display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center; gap: 20px; }
+        .stat-item h4 { font-size: 2.5rem; color: var(--primary); font-weight: 900; }
+        .stat-item p { color: var(--text-muted); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; }
+
+        /* CONTACTO */
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; background: var(--bg-panel); padding: 40px; border-radius: 8px; border: 1px solid #27272a; }
+        .company-info h3 { margin-bottom: 20px; font-size: 1.5rem; color: var(--primary); }
+        .company-info p { color: var(--text-muted); margin-bottom: 10px; display: flex; flex-direction: column; }
+        .company-info strong { color: var(--text-main); font-weight: 700; }
+
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 8px; font-size: 0.9rem; color: var(--text-muted); }
+        .form-control { width: 100%; padding: 12px; background: var(--bg-dark); border: 1px solid #3f3f46; color: var(--text-main); border-radius: 4px; font-family: inherit; }
+        .form-control:focus { outline: none; border-color: var(--primary); }
+        
+        .form-msg { display: none; padding: 15px; background: rgba(16, 185, 129, 0.1); border: 1px solid var(--accent); color: var(--accent); border-radius: 4px; margin-top: 20px; text-align: center; font-weight: 500; }
+
+        /* FOOTER */
+        footer { padding: 40px 0; text-align: center; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid #27272a; margin-top: 40px; }
+        .footer-links { margin-bottom: 20px; }
+        .footer-links a { margin: 0 10px; color: var(--text-main); text-decoration: underline; }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2rem; }
+            .contact-grid { grid-template-columns: 1fr; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <div class="logo">VISUALES<span>3D</span></div>
+            <nav class="nav-links">
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Visuales inmersivos para <span>DJs y Fiestas</span></h1>
+            <p>Transforma la atmósfera de tu evento con contenido visual dinámico, original y profesional. Diseñado específicamente para sincronizar con la energía de tu música y cautivar a tu audiencia.</p>
+            <a href="#contacto" class="btn btn-cta">Cotiza los visuales para tu evento</a>
+        </div>
+    </section>
+
+    <section class="section container">
+        <h2 class="section-title">Calidad que <span>marca la diferencia</span></h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>Alta Resolución Optimizada</h3>
+                <p>Entregamos archivos en formatos ligeros pero en alta definición (1080p y 4K), listos para proyectores y pantallas LED sin consumir excesivos recursos de tu equipo.</p>
+            </div>
+            <div class="card">
+                <h3>Sincronización Rítmica</h3>
+                <p>Diseñamos loops y animaciones con patrones visuales pensados para empatar perfectamente con los BPMs de la música electrónica, urbana o el género de tu evento.</p>
+            </div>
+            <div class="card">
+                <h3>Estilo Original</h3>
+                <p>Evita usar los mismos videos genéricos de internet. Creamos atmósferas únicas, desde entornos cyberpunk y neón hasta abstractos y minimalistas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="section container" style="padding-top: 0;">
+        <h2 class="section-title">Soluciones <span>Visuales</span></h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>Loops para DJs (VJing)</h3>
+                <p>Paquetes de clips de video en bucle (loops) diseñados para ser mezclados en vivo mediante software VJ como Resolume Arena o Serato Video.</p>
+            </div>
+            <div class="card">
+                <h3>Branding para Eventos</h3>
+                <p>Animación de logotipos del DJ, nombre de la discoteca o temática de la fiesta, integrados en entornos 3D para proyectar autoridad y profesionalismo.</p>
+            </div>
+            <div class="card">
+                <h3>Fondos para Streaming</h3>
+                <p>Visuales estáticos o con movimiento suave ideales para transmisiones en vivo (Twitch/YouTube) o grabaciones de DJ Sets.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section facts">
+        <div class="container fact-stats">
+            <div class="stat-item">
+                <h4>100%</h4>
+                <p>Contenido Original</p>
+            </div>
+            <div class="stat-item">
+                <h4>Formatos</h4>
+                <p>MP4 / MOV / DXV3</p>
+            </div>
+            <div class="stat-item">
+                <h4>Soporte</h4>
+                <p>Atención Directa</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section container">
+        <h2 class="section-title">Hablemos de tu <span>próximo proyecto</span></h2>
+        <div class="contact-grid">
+            
+            <div class="company-info">
+                <h3>Información de Contacto</h3>
+                <p>Somos un estudio independiente especializado en arte digital para la industria del entretenimiento. Operamos con total transparencia y comunicación directa.</p>
+                <br>
+                <p><strong>Responsable:</strong> Shirley Dayanna Camargo Martinez</p>
+                <p><strong>Ubicación:</strong> Cra. 35 # 46-51, Bucaramanga, Colombia</p>
+                <p><strong>Teléfono / WhatsApp:</strong> +57 301 224 6756</p>
+                <p><strong>Correo Electrónico:</strong> ulyssesetompsone4547@gmail.com</p>
+                <p><strong>Horario de Atención:</strong> Todos los días de 8:00 am a 5:00 pm</p>
+            </div>
+
+            <div class="contact-form">
+                <form id="leadForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre o Nombre Artístico (DJ)</label>
+                        <input type="text" id="nombre" class="form-control" required placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" class="form-control" required placeholder="tucorreo@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Cuéntanos sobre tu evento o requerimiento</label>
+                        <textarea id="mensaje" class="form-control" rows="4" required placeholder="Necesito un paquete de visuales para una fiesta de techno..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-cta" style="width: 100%;">Enviar Solicitud</button>
+                    
+                    <div id="formMsg" class="form-msg">
+                        ¡Mensaje enviado con éxito! Te contactaremos a la brevedad para cotizar tu proyecto.
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="politica-de-privacidad.html">Política de Privacidad</a>
+                <a href="terminos-y-condiciones.html">Términos y Condiciones</a>
+            </div>
+            <p>&copy; 2026 Visuales 3D por Shirley Dayanna Camargo Martinez. Operado desde Bucaramanga, Colombia. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault(); 
+            const btn = this.querySelector('button[type="submit"]');
+            const msgBox = document.getElementById('formMsg');
+            
+            btn.textContent = 'Enviando...';
+            btn.disabled = true;
+
+            // Simulación de envío de formulario sin redirigir (ideal para Google Ads)
+            setTimeout(() => {
+                this.reset();
+                btn.textContent = 'Enviar Solicitud';
+                btn.disabled = false;
+                msgBox.style.display = 'block';
+                
+                setTimeout(() => {
+                    msgBox.style.display = 'none';
+                }, 6000);
+            }, 1200);
+        });
+    </script>
+</body>
+</html>
